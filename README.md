@@ -17,7 +17,7 @@ Algorithm demo &amp; Guidelines for Simulating Mobile Robots in Crowded Environm
 ## Software Requirements:
 ### System:
 - Ubuntu 16.04.7
-- [ROS Kinetic]((http://wiki.ros.org/kinetic/Installation/Ubuntu)) (may work with other versions, tested and deployed on Foxy)  (may work with other versions, tested and deployed on Foxy)
+- [ROS Kinetic] (http://wiki.ros.org/kinetic/Installation/Ubuntu) (may work with other versions, tested and deployed on Foxy)  (may work with other versions, tested and deployed on Kinetic)
 
 ## Require Packages:
 - ROS Packages: https://github.com/srl-freiburg/pedsim_ros
