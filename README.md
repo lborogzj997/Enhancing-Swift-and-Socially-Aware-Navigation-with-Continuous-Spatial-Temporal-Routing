@@ -42,4 +42,4 @@ catkin_make or catkin build (twice at the first time)
 
 ## Example usage
 ``` roslaunch experimental_package Scenario_test.launch
-(Need download the robot urdf under src file)
+
