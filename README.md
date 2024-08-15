@@ -13,9 +13,13 @@ Algorithm demo &amp; Guidelines for Simulating Mobile Robots in Crowded Environm
 - XML based scene (Generate from THÖR DATASETS: real human trajectoires for human-robot interaction testing purpose)
 - MAT based scene (Generate artifically for testing robot navigation with large crowd size)
 
-## Require Packages:
-### ROS Packages: 
-- https://github.com/srl-freiburg/pedsim_ros
 
-### Matlab Packages: 
-https://web.casadi.org/get/
+## Software Requirements:
+### System:
+- Ubuntu 16.04.7
+- [ROS Kinetic]((http://wiki.ros.org/kinetic/Installation/Ubuntu)) (may work with other versions, tested and deployed on Foxy)  (may work with other versions, tested and deployed on Foxy)
+
+## Require Packages:
+- ROS Packages: https://github.com/srl-freiburg/pedsim_ros
+- Matlab Packages: https://web.casadi.org/get/
+
