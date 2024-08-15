@@ -41,6 +41,6 @@ catkin_make or catkin build (twice at the first time)
 -Replace the experimental_package file from Pedestrian_simulator file
 
 ## Example usage
-```roslaunch experimental_package Scenario_test.launch
-```
+roslaunch experimental_package Scenario_test.launch
+
 
