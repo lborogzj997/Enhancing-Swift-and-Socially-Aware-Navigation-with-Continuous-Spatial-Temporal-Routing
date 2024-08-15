@@ -9,7 +9,7 @@ Algorithm demo &amp; Guidelines for Simulating Mobile Robots in Crowded Environm
 ## This package contains following items for the spatial-temporal routing project:
 - Matlab demo for spatial-temporal routing algorithm
 - Guidlines on how to impiment high-level path planning algorithm into 3D pedestrian simulator in ROS Packages
-- A costom differential drive Robotic wheelchair modeL in urdf format.
+- A costom differential drive Robotic wheelchair model in urdf format.
 - XML based scene (Generate from THÖR DATASETS: real human trajectoires for human-robot interaction testing purpose)
-- MAT based artifical crowd trajectories
+- MAT based scene (Generate artifically for testing robot navigation with large crowd size)
 
