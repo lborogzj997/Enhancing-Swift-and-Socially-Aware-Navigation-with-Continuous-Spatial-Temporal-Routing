@@ -34,6 +34,7 @@ cd Spaciss
 git submodule update --init --recursive
 cd ../..
 catkin_make or catkin build (twice at the first time)
+```
 
 ### Step 2
 -Dowland the robot_wheelchair file in your workspace (catkin_ws/src)
