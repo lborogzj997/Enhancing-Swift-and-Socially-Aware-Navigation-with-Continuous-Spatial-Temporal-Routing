@@ -45,7 +45,7 @@ catkin_make or catkin build (twice at the first time)
 roslaunch experimental_package Scenario_test.launch
 
 - In launch file, change different environment here:
-<arg name="scene_file" value="$(find experimental_package)scenarios/business_area/low/thormap.xml"/>
+```<arg name="scene_file" value="$(find experimental_package)scenarios/business_area/low/thormap.xml"/>```
 
 THÖR scenario: (Pedestrian_simulator/experimental_package/scenarios/business_area/low/thormap.xml)
 
