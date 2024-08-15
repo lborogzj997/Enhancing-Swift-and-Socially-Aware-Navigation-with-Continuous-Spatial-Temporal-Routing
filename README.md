@@ -27,8 +27,8 @@ Algorithm demo &amp; Guidelines for Simulating Mobile Robots in Crowded Environm
 
 Set up the testing envornment in your workspace
 
-cd [workspace]/src
-```git clone https://github.com/srl-freiburg/pedsim_ros.git  
+```cd [workspace]/src
+git clone https://github.com/srl-freiburg/pedsim_ros.git  
 cd pedsim_ros
 git submodule update --init --recursive
 cd ../..
