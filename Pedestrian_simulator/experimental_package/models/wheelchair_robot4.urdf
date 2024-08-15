@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<robot
+  name="wheelchair_robot4">
+
+
+  <material name="color1">
+      <color rgba="0.996078431372549 0.7764705882352941 0.08235294117647059 1.0" />
+  </material>
+
+  <material name="color2">
+      <color rgba="0.9803921568627451 0.16470588235294117 0.3333333333333333 1.0" />
+  </material>
+
+  <material name="color3">
+      <color rgba="0.10588235294117647 0.1411764705882353 0.19215686274509805 1.0" />
+  </material>
+
+
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.116070367389248 -0.000387460963306548 0.280524449845589"
+        rpy="0 0 0" />
+      <mass
+        value="185.015068554867" />
+      <inertia
+        ixx="8.51989303392125"
+        ixy="0.0245373071358486"
+        ixz="0.693279134331001"
+        iyy="10.1532644889236"
+        iyz="8.82279589272413E-05"
+        izz="11.9909793927951" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="color1">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="wheel_fl_link">
+    <inertial>
+      <origin
+        xyz="-1.10061709746034E-10 -0.00337662340413741 5.90574734948834E-10"
+        rpy="0 0 0" />
+      <mass
+        value="2.2843668748185" />
+      <inertia
+        ixx="0.00965638406952181"
+        ixy="-5.03513589196726E-13"
+        ixz="-4.98427158296694E-09"
+        iyy="0.0146542138938539"
+        iyz="-1.93237868171639E-11"
+        izz="0.00965636514719424" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/wheel_fl_link.STL" />
+      </geometry>
+      <material
+        name="color3">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/wheel_fl_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel_fl_joint"
+    type="continuous">
+    <origin
+      xyz="0.130073236181598 0.38 -0.03"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel_fl_link" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <link
+    name="wheel_fr_link">
+    <inertial>
+      <origin
+        xyz="3.98364174980514E-10 0.00337662340409128 -4.3375466413087E-10"
+        rpy="0 0 0" />
+      <mass
+        value="2.28436687482522" />
+      <inertia
+        ixx="0.00965637368510289"
+        ixy="1.45442365575457E-11"
+        ixz="1.06538252153203E-08"
+        iyy="0.0146542138938664"
+        iyz="-1.23759944913488E-11"
+        izz="0.00965637553164089" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/wheel_fr_link.STL" />
+      </geometry>
+      <material
+        name="color3">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/wheel_fr_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel_fr_joint"
+    type="continuous">
+    <origin
+      xyz="0.130073236181598 -0.38 -0.03"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="wheel_fr_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="connector_link">
+    <inertial>
+      <origin
+        xyz="3.79357822932747E-10 2.90199943435004E-10 -0.0261782154699899"
+        rpy="0 0 0" />
+      <mass
+        value="0.0667157840715326" />
+      <inertia
+        ixx="0.000125873890125083"
+        ixy="-7.2427836650951E-06"
+        ixz="1.21292858455585E-12"
+        iyy="9.30667213425711E-05"
+        iyz="9.31015843073259E-13"
+        izz="5.60950990322276E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/connector_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/connector_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="connector_joint"
+    type="continuous">
+    <origin
+      xyz="-0.299926763818402 0 -0.00399999999999999"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="connector_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="wheel_assist_link">
+    <inertial>
+      <origin
+        xyz="1.26123131077849E-07 4.99185305185699E-07 2.01808293964767E-08"
+        rpy="0 0 0" />
+      <mass
+        value="0.33441726853021" />
+      <inertia
+        ixx="0.000399871451682161"
+        ixy="5.27453105588021E-05"
+        ixz="-4.40619053011618E-10"
+        iyy="0.000638788721281427"
+        iyz="7.73083711774996E-11"
+        izz="0.000388744319718542" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/wheel_assist_link.STL" />
+      </geometry>
+      <material
+        name="color3">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/wheel_assist_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="wheel_assist_joint"
+    type="continuous">
+    <origin
+      xyz="0 0 -0.0760000000000001"
+      rpy="0 0 0" />
+    <parent
+      link="connector_link" />
+    <child
+      link="wheel_assist_link" />
+    <axis
+      xyz="-0.206402232912239 -0.978467229011193 0" />
+  </joint>
+
+
+
+
+  <link
+    name="lidar_Link">
+    <inertial>
+      <origin
+        xyz="-0.000772669085365274 -6.79960722208799E-10 7.02576890805329E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.219753304190073" />
+      <inertia
+        ixx="0.000127637800597162"
+        ixy="1.27214955903226E-11"
+        ixz="1.91437962823175E-06"
+        iyy="0.000125796747355346"
+        iyz="4.28256656148048E-12"
+        izz="0.000197877878347455" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/lidar_Link.STL" />
+      </geometry>
+      <material
+        name="color2">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wheelchair_robot4/meshes/lidar_Link.STL" />
+      </geometry>
+    </collision>
+</link>
+
+
+  <joint
+    name="lidar_joint"
+    type="fixed">
+    <origin
+      xyz="-0.334934840795657 0 1.411"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+
+<gazebo reference="base_link"> 
+     <material>Gazebo/Yellow </material>
+    </gazebo>
+ <gazebo reference="wheel_fl_link"> 
+     <material>Gazebo/Orange </material>
+    </gazebo>
+ <gazebo reference="wheel_fr_link"> 
+     <material>Gazebo/Orange </material>
+    </gazebo>
+ <gazebo reference="wheel_assist_link"> 
+     <material>Gazebo/Blue </material>
+    </gazebo>
+  <gazebo reference="lidar_Link"> 
+     <material>Gazebo/Red </material>
+    </gazebo>
+
+</robot>
