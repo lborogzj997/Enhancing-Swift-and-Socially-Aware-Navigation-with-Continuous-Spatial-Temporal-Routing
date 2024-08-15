@@ -37,8 +37,8 @@ catkin_make or catkin build (twice at the first time)
 ```
 
 ### Step 2
--Dowland the robot_wheelchair file in your workspace (catkin_ws/src)
--Replace the experimental_package file from Pedestrian_simulator file
+- Dowland the robot_wheelchair file in your workspace (catkin_ws/src)
+- Replace the experimental_package file from Pedestrian_simulator file
 
 ## Example usage
 - launch the robot in the crowded environment:
