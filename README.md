@@ -42,7 +42,7 @@ catkin_make or catkin build (twice at the first time)
 
 ## Example usage
 - launch the robot in the crowded environment:
-roslaunch experimental_package Scenario_test.launch
+```roslaunch experimental_package Scenario_test.launch```
 
 - In launch file, change different environment here:
 ```<arg name="scene_file" value="$(find experimental_package)scenarios/business_area/low/thormap.xml"/>```
