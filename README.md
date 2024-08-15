@@ -7,12 +7,11 @@ Algorithm demo &amp; Guidelines for Simulating Mobile Robots in Crowded Environm
 - Click to view the project demonstration video: https://www.youtube.com/watch?v=wsg-De5rDfc&t=54s
 
 ## This repository contains following items for the spatial-temporal routing project:
-- Matlab demo for spatial-temporal routing algorithm
-- Guidlines on how to impiment high-level path planning algorithm into 3D pedestrian simulator in ROS Packages
-- A costom differential drive Robotic wheelchair model in urdf format.
-- XML based scene (Generate from THÖR DATASETS: real human trajectoires for human-robot interaction testing purpose)
-- MAT based scene (Generate artifically for testing robot navigation with large crowd size)
-
+- MATLAB demo for the spatial-temporal routing algorithm
+- Guidelines on how to implement the high-level path planning algorithm into a 3D pedestrian simulator using ROS packages
+- A custom differential drive robotic wheelchair model in URDF format
+- XML-based scene (generated from THÖR datasets: real human trajectories for human-robot interaction testing)
+- MAT-based scene (artificially generated for testing robot navigation in large crowds)
 
 ## Software Requirements:
 ### System:
@@ -26,7 +25,7 @@ Algorithm demo &amp; Guidelines for Simulating Mobile Robots in Crowded Environm
 ## Installation
 
 ### Step 1
-Set up the testing envornment in your workspace (SPACiS)
+Set Up the Testing Environment in Your Workspace (SPACiS)
 
 ```cd [workspace]/src
 git clone https://github.com/maprdhm/Spaciss.git  
@@ -37,22 +36,29 @@ catkin_make or catkin build (twice at the first time)
 ```
 
 ### Step 2
-- Dowland the robot_wheelchair file in your workspace (catkin_ws/src)
-- Replace the experimental_package file from Pedestrian_simulator file
+- Download the robot_wheelchair file into your workspace (catkin_ws/src)
+- Replace the experimental_package file from the Pedestrian_simulator file
 
 ## Example usage
 - launch the robot in the crowded environment:
 ```roslaunch experimental_package Scenario_test.launch```
 
-- In launch file, change different environment here:
+- To change the environment in the launch file:
 ```<arg name="scene_file" value="$(find experimental_package)scenarios/business_area/low/thormap.xml"/>```
 
 THÖR scenario: (Pedestrian_simulator/experimental_package/scenarios/business_area/low/thormap.xml)
 
 ## Communication
-- The position of simulated pdestrian can be extracted by ROS topic: /pedsim_visualizer/tracked_persons (not a regular pose msg, need further custom process in matlab: https://uk.mathworks.com/help/ros/ug/create-custom-messages-from-ros-package.html)
-- Alternatively, the position of simulated pedesrian can be extracted by Top view camera in RVIZ: Top view camera -> Set color of crowd to blue -> record video in MP4 file -> feed to (Support\Crowd(blue)_tracking_fixed_frame.m) to track the crowd motion
-- (MotionControl_ros_robot.m.m) is a motion controller, given the reference path, it keep publish cmd_vel comment to control robot follow the path.
+- The position of simulated pedestrians can be extracted via the ROS topic: /pedsim_visualizer/tracked_persons (not a regular pose message; requires custom processing in MATLAB: MATLAB ROS Custom Messages)
+- Alternatively, the position of simulated pedestrians can be extracted using the top-view camera in RVIZ:
+
+    Set the color of the crowd to blue in the top-view camera
+    Record the video in MP4 format
+    Use Support\Crowd(blue)_tracking_fixed_frame.m to track the crowd's motion
+  
+- 'MotionControl_ros_robot.m' is a motion controller that, given the reference path, continuously publishes cmd_vel commands to control the robot and follow the path.
+
+
 
 
 
