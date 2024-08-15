@@ -1,7 +1,8 @@
 # Spatial-Temporal Routing Strategy for Robots in Dynamic Human Environments
 Algorithm demo &amp; Guidelines for Simulating Mobile Robots in Crowded Environment
 
-![image](https://github.com/user-attachments/assets/8d7d942f-498c-4406-b53d-81b653268f09)
+![image](https://github.com/user-attachments/assets/908d6e9e-1cac-4690-8727-24b935bdad52)
+
 
 - Click to view the project demonstration video: https://www.youtube.com/watch?v=wsg-De5rDfc&t=54s
 
