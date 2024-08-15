@@ -25,14 +25,19 @@ Algorithm demo &amp; Guidelines for Simulating Mobile Robots in Crowded Environm
 
 ## Installation
 
-Set up the testing envornment in your workspace
+### Step 1
+Set up the testing envornment in your workspace (SPACiS)
 
 ```cd [workspace]/src
-git clone https://github.com/srl-freiburg/pedsim_ros.git  
-cd pedsim_ros
+git clone https://github.com/maprdhm/Spaciss.git  
+cd Spaciss
 git submodule update --init --recursive
 cd ../..
-catkin build -c  # or catkin_make
+catkin_make or catkin build (twice at the first time)
+
+### Step 2
+-Dowland the robot_wheelchair file in your workspace (catkin_ws/src)
+-Replace the experimental_package file from Pedestrian_simulator file
 
 ## Example usage
 ``` roslaunch experimental_package Scenario_test.launch
