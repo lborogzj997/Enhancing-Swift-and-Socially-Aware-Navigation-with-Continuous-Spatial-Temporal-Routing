@@ -23,3 +23,14 @@ Algorithm demo &amp; Guidelines for Simulating Mobile Robots in Crowded Environm
 - ROS Packages: https://github.com/srl-freiburg/pedsim_ros
 - Matlab Packages: https://web.casadi.org/get/
 
+## Installation
+
+Set up the testing envornment in your workspace
+
+cd [workspace]/src
+```git clone https://github.com/srl-freiburg/pedsim_ros.git  
+cd pedsim_ros
+git submodule update --init --recursive
+cd ../..
+catkin build -c  # or catkin_make```
+
