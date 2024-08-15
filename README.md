@@ -32,5 +32,8 @@ cd [workspace]/src
 cd pedsim_ros
 git submodule update --init --recursive
 cd ../..
-catkin build -c  # or catkin_make```
+catkin build -c  # or catkin_make
 
+## Example usage
+``` roslaunch experimental_package Scenario_test.launch
+(Need download the robot urdf under src file)
