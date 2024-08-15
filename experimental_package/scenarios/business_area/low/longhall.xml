@@ -1,0 +1,65 @@
+<!-- 0.05p/m²-->
+<scenario>
+   <waypoint id="dest" x="5.0" y="10.0" r="5" />
+   <waypoint id="farDest" x="20" y="38" r="5" />
+
+   <waypoint id="goalup1" x="10" y="25" r="3" />
+   <waypoint id="goalup2" x="35" y="25" r="3" />
+   <waypoint id="goalup3" x="60" y="25" r="3" />
+   <waypoint id="goalup4" x="85" y="25" r="3" />
+
+
+   <waypoint id="goaldown1" x="10" y="0" r="3" />
+   <waypoint id="goaldown2" x="35" y="0" r="3" />
+   <waypoint id="goaldown3" x="60" y="0" r="3" />
+   <waypoint id="goaldown1" x="85" y="0" r="3" />
+
+
+   <obstacle id="obs1" x1="0" y1="30" x2="100" y2="30" />
+   <obstacle id="obs1" x1="0" y1="0" x2="100" y2="0" />
+
+
+
+
+   <agent x="25" y="25" n="20" dx="0.1" dy="0.1" type="0" purpose="2">
+         <addwaypoint id="goalup2" />
+         <addwaypoint id="goaldown2" />
+         <addwaypoint id="goalup2" />
+         <addwaypoint id="goaldown2" />
+   </agent>
+
+
+   <agent x="60" y="25" n="20" dx="0.1" dy="0.1" type="0" purpose="2">
+         <addwaypoint id="goalup3" />
+         <addwaypoint id="goaldown3" />
+         <addwaypoint id="goalup3" />
+         <addwaypoint id="goaldown3" />
+   </agent>
+
+
+   <agent x="75" y="25" n="20" dx="0.1" dy="0.1" type="0" purpose="2">
+         <addwaypoint id="goalup4" />
+         <addwaypoint id="goaldown4" />
+
+
+   </agent>
+
+   <agent x="10" y="10" n="20" dx="0.1" dy="0.1" type="0" purpose="2">
+         <addwaypoint id="goaldown1" />
+         <addwaypoint id="goalup1" />
+   </agent>
+
+
+
+   <agent x="0.0" y="-20" theta="1.57" n="1" type="2"> <!-- robot -->
+      <addwaypoint id="dest" />
+      <addwaypoint id="farDest" />
+   </agent>
+
+
+</scenario>
+  
+
+
+
+

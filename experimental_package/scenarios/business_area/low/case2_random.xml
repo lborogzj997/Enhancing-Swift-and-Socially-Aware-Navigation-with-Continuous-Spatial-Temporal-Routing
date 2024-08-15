@@ -1,0 +1,362 @@
+<!-- 0.05p/m²-->
+<scenario>
+   <waypoint id="dest" x="5.0" y="10.0" r="5" />
+   <waypoint id="farDest" x="20" y="38" r="5" />
+
+
+<waypoint id="goal1" x="11.19" y="9.48" r="2" />
+<waypoint id="goal2" x="14.77" y="8.79" r="2" />
+<waypoint id="goal3" x="10.42" y="10.03" r="2" />
+<waypoint id="goal4" x="16.50" y="17.28" r="2" />
+<waypoint id="goal5" x="24.82" y="23.72" r="2" />
+<waypoint id="goal6" x="10.06" y="6.44" r="2" />
+<waypoint id="goal7" x="23.15" y="8.64" r="2" />
+<waypoint id="goal8" x="14.67" y="23.14" r="2" />
+<waypoint id="goal9" x="4.07" y="7.93" r="2" />
+<waypoint id="goal10" x="11.82" y="15.29" r="2" />
+<waypoint id="goal11" x="22.69" y="7.02" r="2" />
+<waypoint id="goal12" x="24.24" y="11.98" r="2" />
+<waypoint id="goal13" x="20.05" y="14.08" r="2" />
+<waypoint id="goal14" x="9.62" y="11.93" r="2" />
+<waypoint id="goal15" x="18.51" y="23.07" r="2" />
+<waypoint id="goal16" x="22.47" y="5.10" r="2" />
+<waypoint id="goal17" x="4.76" y="22.55" r="2" />
+<waypoint id="goal18" x="17.02" y="2.93" r="2" />
+<waypoint id="goal19" x="13.61" y="22.57" r="2" />
+<waypoint id="goal20" x="10.87" y="8.72" r="2" />
+<waypoint id="goal21" x="7.38" y="6.62" r="2" />
+<waypoint id="goal22" x="10.75" y="15.68" r="2" />
+<waypoint id="goal23" x="8.17" y="16.32" r="2" />
+<waypoint id="goal24" x="20.51" y="4.39" r="2" />
+<waypoint id="goal25" x="18.77" y="16.92" r="2" />
+
+
+<waypoint id="goal1" x="14.57" y="17.85" r="2" />
+<waypoint id="goal2" x="6.09" y="23.22" r="2" />
+<waypoint id="goal3" x="23.37" y="3.36" r="2" />
+<waypoint id="goal4" x="31.94" y="4.79" r="2" />
+<waypoint id="goal5" x="9.95" y="34.18" r="2" />
+<waypoint id="goal6" x="28.06" y="2.28" r="2" />
+<waypoint id="goal7" x="15.54" y="19.70" r="2" />
+<waypoint id="goal8" x="8.89" y="5.50" r="2" />
+<waypoint id="goal9" x="23.65" y="19.41" r="2" />
+<waypoint id="goal10" x="40.75" y="27.26" r="2" />
+<waypoint id="goal11" x="40.42" y="23.64" r="2" />
+<waypoint id="goal12" x="2.66" y="2.23" r="2" />
+<waypoint id="goal13" x="9.81" y="19.20" r="2" />
+<waypoint id="goal14" x="35.76" y="9.49" r="2" />
+<waypoint id="goal15" x="15.10" y="32.31" r="2" />
+<waypoint id="goal16" x="15.50" y="17.13" r="2" />
+<waypoint id="goal17" x="9.30" y="20.22" r="2" />
+<waypoint id="goal18" x="44.10" y="43.73" r="2" />
+<waypoint id="goal19" x="20.50" y="33.75" r="2" />
+<waypoint id="goal20" x="13.85" y="46.65" r="2" />
+<waypoint id="goal21" x="31.36" y="11.73" r="2" />
+<waypoint id="goal22" x="7.15" y="28.59" r="2" />
+<waypoint id="goal23" x="14.89" y="5.34" r="2" />
+<waypoint id="goal24" x="9.45" y="4.33" r="2" />
+<waypoint id="goal25" x="34.00" y="38.74" r="2" />
+<waypoint id="goal26" x="39.95" y="14.46" r="2" />
+<waypoint id="goal27" x="44.11" y="30.58" r="2" />
+<waypoint id="goal28" x="2.68" y="18.17" r="2" />
+<waypoint id="goal29" x="27.08" y="31.50" r="2" />
+<waypoint id="goal30" x="23.00" y="40.12" r="2" />
+<waypoint id="goal31" x="8.81" y="47.82" r="2" />
+<waypoint id="goal32" x="41.19" y="17.98" r="2" />
+<waypoint id="goal33" x="30.96" y="16.28" r="2" />
+<waypoint id="goal34" x="6.19" y="26.51" r="2" />
+<waypoint id="goal35" x="40.79" y="37.90" r="2" />
+<waypoint id="goal36" x="46.54" y="17.68" r="2" />
+<waypoint id="goal37" x="20.32" y="9.07" r="2" />
+<waypoint id="goal38" x="17.68" y="28.02" r="2" />
+<waypoint id="goal39" x="27.86" y="9.54" r="2" />
+<waypoint id="goal40" x="7.50" y="20.73" r="2" />
+<waypoint id="goal41" x="41.08" y="10.70" r="2" />
+<waypoint id="goal42" x="25.54" y="7.94" r="2" />
+<waypoint id="goal43" x="42.64" y="38.03" r="2" />
+<waypoint id="goal44" x="28.52" y="20.31" r="2" />
+<waypoint id="goal45" x="25.04" y="43.68" r="2" />
+<waypoint id="goal46" x="44.54" y="25.42" r="2" />
+<waypoint id="goal47" x="26.87" y="44.76" r="2" />
+<waypoint id="goal48" x="29.19" y="38.46" r="2" />
+<waypoint id="goal49" x="33.09" y="24.07" r="2" />
+<waypoint id="goal50" x="12.33" y="30.32" r="2" />
+
+
+
+
+
+
+
+   <obstacle id="obs1" x1="0" y1="50" x2="50" y2="50" />
+   <obstacle id="obs1" x1="0" y1="0" x2="50" y2="0" />
+   <obstacle id="obs1" x1="0" y1="0" x2="0" y2="50" />
+   <obstacle id="obs1" x1="50" y1="0" x2="50" y2="50" />
+
+<agent x="9.71" y="5.43" n="1" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal46" />
+</agent>
+<agent x="18.28" y="43.42" n="2" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal28" />
+    <addwaypoint id="goal48" />
+</agent>
+<agent x="2.65" y="40.59" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal48" />
+    <addwaypoint id="goal25" />
+    <addwaypoint id="goal41" />
+    <addwaypoint id="goal8" />
+    <addwaypoint id="goal22" />
+</agent>
+<agent x="4.96" y="10.77" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal33" />
+    <addwaypoint id="goal2" />
+    <addwaypoint id="goal43" />
+    <addwaypoint id="goal47" />
+    <addwaypoint id="goal34" />
+</agent>
+<agent x="12.39" y="13.07" n="2" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal33" />
+    <addwaypoint id="goal9" />
+</agent>
+<agent x="14.82" y="46.50" n="2" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal3" />
+    <addwaypoint id="goal5" />
+</agent>
+<agent x="9.30" y="15.34" n="2" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal48" />
+    <addwaypoint id="goal2" />
+</agent>
+<agent x="27.38" y="30.07" n="4" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal40" />
+    <addwaypoint id="goal10" />
+    <addwaypoint id="goal25" />
+    <addwaypoint id="goal23" />
+</agent>
+<agent x="17.62" y="14.66" n="4" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal14" />
+    <addwaypoint id="goal34" />
+    <addwaypoint id="goal33" />
+    <addwaypoint id="goal9" />
+</agent>
+<agent x="42.41" y="24.58" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal18" />
+    <addwaypoint id="goal30" />
+    <addwaypoint id="goal12" />
+    <addwaypoint id="goal38" />
+    <addwaypoint id="goal13" />
+</agent>
+<agent x="24.22" y="15.14" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal48" />
+    <addwaypoint id="goal28" />
+    <addwaypoint id="goal7" />
+    <addwaypoint id="goal8" />
+    <addwaypoint id="goal13" />
+</agent>
+<agent x="8.49" y="36.05" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal13" />
+    <addwaypoint id="goal47" />
+    <addwaypoint id="goal18" />
+    <addwaypoint id="goal10" />
+    <addwaypoint id="goal13" />
+</agent>
+<agent x="19.05" y="25.76" n="2" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal42" />
+    <addwaypoint id="goal30" />
+</agent>
+<agent x="22.16" y="4.89" n="2" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal38" />
+    <addwaypoint id="goal38" />
+</agent>
+<agent x="30.12" y="21.31" n="1" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal3" />
+</agent>
+<agent x="23.05" y="11.38" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal7" />
+    <addwaypoint id="goal29" />
+    <addwaypoint id="goal24" />
+    <addwaypoint id="goal1" />
+    <addwaypoint id="goal17" />
+</agent>
+<agent x="40.38" y="10.67" n="2" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal27" />
+    <addwaypoint id="goal9" />
+</agent>
+<agent x="19.71" y="35.64" n="4" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal35" />
+    <addwaypoint id="goal38" />
+    <addwaypoint id="goal23" />
+    <addwaypoint id="goal5" />
+</agent>
+<agent x="37.24" y="5.07" n="1" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal42" />
+</agent>
+<agent x="22.70" y="1.18" n="1" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal23" />
+</agent>
+<agent x="42.99" y="2.79" n="1" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal39" />
+</agent>
+<agent x="9.59" y="7.17" n="1" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal20" />
+</agent>
+<agent x="35.79" y="10.40" n="3" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal46" />
+    <addwaypoint id="goal10" />
+    <addwaypoint id="goal14" />
+</agent>
+<agent x="41.16" y="41.60" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal29" />
+    <addwaypoint id="goal28" />
+    <addwaypoint id="goal8" />
+    <addwaypoint id="goal43" />
+    <addwaypoint id="goal32" />
+</agent>
+<agent x="31.51" y="23.88" n="3" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal4" />
+    <addwaypoint id="goal12" />
+    <addwaypoint id="goal7" />
+</agent>
+<agent x="39.36" y="36.72" n="3" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal3" />
+    <addwaypoint id="goal46" />
+    <addwaypoint id="goal48" />
+</agent>
+<agent x="24.93" y="25.01" n="2" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal46" />
+    <addwaypoint id="goal19" />
+</agent>
+<agent x="42.77" y="11.33" n="2" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal13" />
+    <addwaypoint id="goal21" />
+</agent>
+<agent x="43.47" y="41.80" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal48" />
+    <addwaypoint id="goal29" />
+    <addwaypoint id="goal3" />
+    <addwaypoint id="goal12" />
+    <addwaypoint id="goal18" />
+</agent>
+<agent x="9.40" y="47.28" n="1" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal9" />
+</agent>
+<agent x="17.49" y="13.61" n="4" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal23" />
+    <addwaypoint id="goal28" />
+    <addwaypoint id="goal15" />
+    <addwaypoint id="goal38" />
+</agent>
+<agent x="39.12" y="15.72" n="1" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal19" />
+</agent>
+<agent x="18.60" y="11.33" n="1" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal47" />
+</agent>
+<agent x="11.54" y="25.12" n="3" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal23" />
+    <addwaypoint id="goal16" />
+    <addwaypoint id="goal26" />
+</agent>
+<agent x="23.99" y="9.57" n="4" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal33" />
+    <addwaypoint id="goal19" />
+    <addwaypoint id="goal41" />
+    <addwaypoint id="goal27" />
+</agent>
+<agent x="31.52" y="3.87" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal28" />
+    <addwaypoint id="goal32" />
+    <addwaypoint id="goal30" />
+    <addwaypoint id="goal11" />
+    <addwaypoint id="goal16" />
+</agent>
+<agent x="25.87" y="37.17" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal10" />
+    <addwaypoint id="goal12" />
+    <addwaypoint id="goal9" />
+    <addwaypoint id="goal12" />
+    <addwaypoint id="goal22" />
+</agent>
+<agent x="33.38" y="4.60" n="3" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal10" />
+    <addwaypoint id="goal46" />
+    <addwaypoint id="goal49" />
+</agent>
+<agent x="27.37" y="42.78" n="2" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal21" />
+    <addwaypoint id="goal30" />
+</agent>
+<agent x="35.68" y="19.67" n="4" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal12" />
+    <addwaypoint id="goal6" />
+    <addwaypoint id="goal15" />
+    <addwaypoint id="goal16" />
+</agent>
+<agent x="28.06" y="24.13" n="1" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal14" />
+</agent>
+<agent x="10.35" y="46.63" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal37" />
+    <addwaypoint id="goal25" />
+    <addwaypoint id="goal29" />
+    <addwaypoint id="goal12" />
+    <addwaypoint id="goal23" />
+</agent>
+<agent x="2.73" y="22.30" n="3" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal12" />
+    <addwaypoint id="goal25" />
+    <addwaypoint id="goal32" />
+</agent>
+<agent x="16.08" y="29.41" n="2" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal50" />
+    <addwaypoint id="goal2" />
+</agent>
+<agent x="6.40" y="5.08" n="4" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal5" />
+    <addwaypoint id="goal14" />
+    <addwaypoint id="goal17" />
+    <addwaypoint id="goal34" />
+</agent>
+<agent x="41.58" y="14.10" n="1" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal33" />
+</agent>
+<agent x="24.77" y="11.38" n="4" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal46" />
+    <addwaypoint id="goal45" />
+    <addwaypoint id="goal17" />
+    <addwaypoint id="goal35" />
+</agent>
+<agent x="38.70" y="46.56" n="4" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal26" />
+    <addwaypoint id="goal24" />
+    <addwaypoint id="goal46" />
+    <addwaypoint id="goal31" />
+</agent>
+<agent x="18.97" y="7.61" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal29" />
+    <addwaypoint id="goal10" />
+    <addwaypoint id="goal12" />
+    <addwaypoint id="goal45" />
+    <addwaypoint id="goal2" />
+</agent>
+<agent x="24.97" y="40.11" n="5" dx="0.1" dy="0.1" type="3" purpose="2">
+    <addwaypoint id="goal36" />
+    <addwaypoint id="goal26" />
+    <addwaypoint id="goal24" />
+    <addwaypoint id="goal3" />
+    <addwaypoint id="goal35" />
+</agent>
+
+
+
+   <agent x="0.0" y="-20" theta="1.57" n="1" type="2"> <!-- robot -->
+      <addwaypoint id="dest" />
+      <addwaypoint id="farDest" />
+   </agent>
+
+
+</scenario>
+  
+
+
+
+
