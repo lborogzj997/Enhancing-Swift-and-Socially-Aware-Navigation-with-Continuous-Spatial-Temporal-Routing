@@ -48,7 +48,7 @@ catkin_make or catkin build (twice at the first time)
 
 THÖR scenario: (Pedestrian_simulator/experimental_package/scenarios/business_area/low/thormap.xml)
 
-## Communication
+## Data communication
 - The position of simulated pedestrians can be extracted via the ROS topic: /pedsim_visualizer/tracked_persons (not a regular pose message; requires custom processing in MATLAB: MATLAB ROS Custom Messages)
 - Alternatively, the position of simulated pedestrians can be extracted using the top-view camera in RVIZ:
 
