@@ -41,18 +41,18 @@ catkin_make or catkin build (twice at the first time)
 -Replace the experimental_package file from Pedestrian_simulator file
 
 ## Example usage
-launch the robot in the crowded environment:
+- launch the robot in the crowded environment:
 roslaunch experimental_package Scenario_test.launch
 
-In launch file, change different environment here:
-``` <arg name="scene_file" value="$(find experimental_package)scenarios/business_area/low/thormap.xml"/>
-```
+- In launch file, change different environment here:
+<arg name="scene_file" value="$(find experimental_package)scenarios/business_area/low/thormap.xml"/>
+
 THÖR scenario: (Pedestrian_simulator/experimental_package/scenarios/business_area/low/thormap.xml)
 
 ## Communication
--The position of simulated pdestrian can be extracted by ROS topic: /pedsim_visualizer/tracked_persons (not a regular pose msg, need further custom process in matlab: https://uk.mathworks.com/help/ros/ug/create-custom-messages-from-ros-package.html)
--Alternatively, the position of simulated pedesrian can be extracted by Top view camera in RVIZ: Top view camera -> Set color of crowd to blue -> record video in MP4 file -> feed to (Support\Crowd(blue)_tracking_fixed_frame.m) to track the crowd motion
--(MotionControl_ros_robot.m.m) is a motion controller, given the reference path, it keep publish cmd_vel comment to control robot follow the path.
+- The position of simulated pdestrian can be extracted by ROS topic: /pedsim_visualizer/tracked_persons (not a regular pose msg, need further custom process in matlab: https://uk.mathworks.com/help/ros/ug/create-custom-messages-from-ros-package.html)
+- Alternatively, the position of simulated pedesrian can be extracted by Top view camera in RVIZ: Top view camera -> Set color of crowd to blue -> record video in MP4 file -> feed to (Support\Crowd(blue)_tracking_fixed_frame.m) to track the crowd motion
+- (MotionControl_ros_robot.m.m) is a motion controller, given the reference path, it keep publish cmd_vel comment to control robot follow the path.
 
 
 
