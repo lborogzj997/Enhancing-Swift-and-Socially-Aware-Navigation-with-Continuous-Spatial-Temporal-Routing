@@ -1,4 +1,4 @@
-# Spatial-Temporal Routing for Robots in Dynamic Human Environments
+# Enhancing Swift and Socially-Aware Navigation with Continuous Spatial-Temporal Routing
 Algorithm demo &amp; Guidelines for Simulating Mobile Robots in Crowded Environment
 
 ![image](https://github.com/user-attachments/assets/908d6e9e-1cac-4690-8727-24b935bdad52)
