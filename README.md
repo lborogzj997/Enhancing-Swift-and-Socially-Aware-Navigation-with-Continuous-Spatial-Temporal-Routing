@@ -58,6 +58,10 @@ THÖR scenario: (Pedestrian_simulator/experimental_package/scenarios/business_ar
   
 - 'MotionControl_ros_robot.m' is a motion controller that, given the reference path, continuously publishes cmd_vel commands to control the robot and follow the path.
 
+## Cite this work
+- The detail of this work can found in our paper:
+- [Enhancing Swift and Socially-Aware Navigation with Continuous Spatial-Temporal Routing     ](https://link.springer.com/article/10.1007/s12369-024-01193-3)
+
 
 
 
